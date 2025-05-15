@@ -1,0 +1,25 @@
+'go to healer in Newhaven from Arena, heal, return to Arena
+{send u;}{:}{send w;}{:}{send buy heal;}{:}{send e;}{:}{send d;}{:}
+
+
+'Drop Carrier  - great for times when you about to die??
+{dropc}
+
+
+'heal myself  Don't want to use F4? Then try this one. Replace name first
+{send cast rgen will;}{}{send ;}{}
+'Go to a store. Run macro. Type item to buy. Buys and puts on item
+{set}{send buy }{}{send %4;}{}{send wear }{}{send %4;}{}{send list;}{}
+
+
+
+
+'cast alertness. Replace name first
+{send cast alrt will;}{}
+
+
+'charm animal
+{send cast char }{}{send %1;}{}
+'cast chaos spell
+{send cast chaos }{}{send %1;}{}
+

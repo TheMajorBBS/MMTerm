@@ -1,0 +1,503 @@
+                              MMTERM
+                            VERSION 2.6
+         Copyright 1995 by Will Boyett - All Rights Reserved
+
+*WARNING*     You will need the following to properly run MMTERM:
+
+                     EGA or better graphic card
+                          DOS 3.3 OR later
+
+*************************************************************************
+
+                      DISCLAIMER OF WARRANTY
+
+THIS SOFTWARE IS SOLD "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE OF
+MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED.
+BECAUSE OF THE VARIOUS HARDWARE AND SOFTWARE ENVIRONMENTS INTO WHICH THIS
+PROGRAM MAY BE PUT, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS
+OFFERED.
+
+*************************************************************************
+What is MMTERM
+
+* MMTERM is an on-line terminal program designed specifically for use in
+  playing MajorMUD, the popular BBS door game.
+* MMTERM is an interface composed of graphics and sound.
+
+The advantage of using MMTERM is that it is custom designed just for
+playing the game. Thus you have a lot of features that your normal
+term program like Telemate or QModem can't offer.
+
+To help make learning MMTERM as easy as possible, I've broken the docs
+into these files...
+
+!MMT.DOC      This file. Explains what MMTERM is, how to run it, and the
+              available features.
+!SCRIPT.DOC   Explains MMTERM's script language, so you can start coding
+              your own custom macros for use in MMTERM.
+!ORDER.FRM    How to register quickly and get in on the extra MMTERM
+              features.
+!READ.1ST     Some important info you'll need before running MMTERM.
+
+*************************************************************************
+Here's What You Get By Registering MMTERM
+(please see !ORDER.FRM for more info)
+
+MMTERM is marketed under the shareware concept. It is not a FREE program.
+As shareware.. you are granted a right to try MMTERM for a short trial
+period (1-2 weeks should be enough to get to know the program well). At the
+end of that time you must decide whether to keep the program or delete it.
+
+Here's one way to test whether you should keep the program...
+After your trial period go back to playing MM with your regular comm program.
+If you find you can still play and enjoy MM with your comm program, then
+you don't need MMTERM. But if you find it harder to play and enjoy MM, then
+please, register your copy of MMTERM with me. Your registration grants you
+a license to keep using the program for all your playing needs.
+
+Besides.. there are many more benefits you'll get by registering...
+
+1) Maps for playing MM. Show secret rooms, location of manholes, location
+   of items, location of training rooms, secret paths, and more.
+
+2) Expanded monster database so your "Auto Attack" and "Auto Cast" features
+   will work on MORE monsters. The Unregistered version attacks the
+   following monsters only:
+
+   Carrion     Filthbug     Acid Slime     Rat       Kobold
+   Lashworm    Thug         Orc            Cultist   Zombie
+
+   With the Registered version you get a database of 30 monsters, PLUS
+   the ability to add more monster names and/or other players to your
+   database (or Hit List as I like to call it!)
+
+3) Auto Heal
+
+4) Open Door - Course you could use the BASH command in MMTERM's script
+   language, but this one is so much nicer.. and repeats till the door
+   opens or until it senses you aren't strong enough to open it.
+
+4) Your key will get rid of those annoying registration screens and delays
+   you get when exiting MMTERM.
+
+To register.. see the ending screen of MMTERM for address. Better yet,
+print the !ORDER.FRM file and fill it out now!!
+
+***************************************************************************
+How To Start MMTERM
+
+Syntax:  MMTERM DatabaseName
+
+Where "DatabaseName" is a name you have chosen for this database. You must
+supply a name. If you don't enter it on the command line, then MMTERM will
+ask you for one before it will run. The purpose of the "DatabaseName" is
+for those who play in more then one game of MM and thus may have different
+characters with different configurations. I usually call my database the
+same name as the BBS the game is on. Easy to remember then, which database
+goes to which game of MajorMUD.
+
+There are 3 ways to use MMTERM:
+
+1) Offline. MMTERM can be run offline for various things.
+  
+2) You can use MMTERM to connect to a BBS.
+
+3) You can start MMTERM after you have already connected to the BBS
+   using your comm program.
+
+   If you need to use your comm program for logging onto the BBS (in case
+   you want/need to do other things on-line like file transfers, etc..)
+
+   You can always Exit/Shell from your comm program (make sure not to drop
+   carrier) and then start MMTERM.
+
+   When using this method, make sure your comm program connects to the BBS
+   at the same settings you have configured in MMTERM. Simply go to MMTERM's
+   F2 menu (do this offline). Jot down the modem settings (baud, port,
+   handshaking, etc), and set your comm program to use the same settings.
+
+   Then call your BBS with your comm program. Do your e-mail, file transfers,
+   etc.. When ready to play MM, exit your comm without dropping carrier
+   (if you are shelling, you should set your comm program to swap itself to
+   XMS/EMS), start MMTERM. Play MM.
+
+   When done playing you can log off the BBS while in MMTERM, or exit
+   MMTERM and return to your comm program.
+
+   If you decide that after playing MM, you need to get back in your comm
+   program, you can do so without having to redial the BBS. Simply exit
+   MMTERM and start your comm program WITHOUT sending the modem init string.
+   In Telemate, you would use the /O switch to do this.
+
+   FINAL NOTES:
+   If you shell to DOS to run MMTERM, or use a hotkey, you'll probably wise
+   to configure your comm program to shell itself to EMS/XMS/DISK.
+
+   With this method, I recommend starting MMTERM while you are at your
+   BBS's main menu prompt. Make sure if you get a lot of global messages,
+   that they are turned off first before starting MMTERM
+
+***************************************************************************
+Files created and/or used by MMTERM
+
+MMTERM Program files:
+
+!MMT.DOC      term documentation. This file. Can also be printed
+!SCRIPT.DOC   help file for creating script macros
+!ORDER.FRM    order form
+!READ.1ST     important info you'll need
+
+MMTERM.EXE    the terminal program
+SETUP.EXE     maintains modem configurations/dialing lists
+FILE_ID.DIZ   file description for MMTERM
+MMTSPELL.DAT  Spells database
+MMTGRAB.DAT   Registered users use this to tell MMTERM what items to grab.
+MMTMONST.DAT  Registered users use this to tell MMTERM monsters to attack.
+MMTMACRO.FIL  text file that contains your  macros
+MMTDIAL.CFG   contains your dialing list and modem strings
+.CFG files    Contains the configuration data on your game.
+              Created by MMTERM
+.MAP files    maps of the various places in MM
+.GFX files    MMTERM graphic files. Must have these for MMTERM to work
+.CAP file     a capture file
+
+***************************************************************************
+How to use features with Mouse or Keyboard
+
+Previously I explained how to start MMTERM and how to correct any problems
+when running it. So this section will focus on how to use the Mouse or
+Keyboard to move around in MMTERM.
+
+When using the keyboard, the following keys run the following features:
+You can use the mouse to click on these also.
+   
+   F1   Macros Menu          CTRL-C   Open/Close a capture file
+   F2   Config Menu          CTRL-D   Shell to DOS
+   F3   View Maps            CTRL-R   Brief room displays
+   F4   Auto Heal            CTRL-V   Verbose room displays
+   F5   Auto Grab            CTRL-P   MM Help
+   F6   Auto Attack          CTRL-O   Open a closed door/gate
+   F7   Auto Sneak           CTRL-S   List your Stats
+   F8   Auto Search          CTRL-W   List your Wealth
+   F9   Auto Cast            CTRL-B   Scrollback buffer
+   F10  Auto Hide            CTRL-L   Look
+                             CTRL-A   Dial BBS
+                             CTRL-I   List your Inventory
+                             CTRL-E   Display your Experience points
+
+Besides the above, MMTERM comes with a script language for making macros.
+These Macros can be found on the Macro Screen (F1). MMTERM assigns each
+macro to a letter. These macros can be run by using the ALT key and the
+letter for that macro.
+
+To use a mouse to run the ALT key macros, simply click on the letter
+at the top of the MMTERM screen.
+
+                         MOVEMENT KEYS 
+
+As you know MM requires you to type in NW, NE, etc to move around.
+This can be slow and tiring (not to mention boring). MMTERM
+alleviates this problem by allowing you other choices for moving.
+
+Mouse:  Use the left mouse button to click on the on-screen compass, or
+        up/down buttons
+
+Keypad: Use the numeric keypad (make sure Num Lock is off) for moving.
+
+                                N
+                         [ 7 ][ 8 ][ 9 ]
+                       W [ 4 ]     [ 6 ] E
+                         [ 1 ][ 2 ][ 3 ]
+                         [ 0 ][ . ]
+                          Up  Down
+
+Of course, you can still type in the commands manually at the command line
+should you so desire.
+
+***************************************************************************
+Features of MMTERM
+
+---------------->>>>>>>>  F1 - MACRO MENU  <<<<<<<<<<--------------------
+
+The Macro Menu displays all the macros you have available to use. You'll
+also see a special FLIP button. This allows you to toggle the display of
+macros. When you first open the menu you will see a description of your
+macros. By using the FLIP button you can display (and edit/add) the macro's
+script code.
+
+Your macros are saved in a text file called MMTMACRO.FIL. You can create
+these macros off-line or while on-line from within MMTERM.
+
+To create custom macros that MMTERM understands you'll need to use
+MMTERM's script language (see !SCRIPT.DOC for complete details).
+
+                        ------------------------
+NOTE: While running a macro, should you wish to abort it, simply press the
+      <ESC> key. Sometimes, if you coded the macro wrong, you could find
+      yourself in an endless loop (you'll know it when the screen stops
+      displaying and none of the keys in MMTERM work). Again, press <ESC>
+      until you exit from such a loop.
+                        ------------------------
+
+The easiest way to create your macros is within MMTERM. However if
+you would like to create the MMTMACRO.FIL file off-line in a word processor
+the format is as follows:
+
+1) Add a "'" to the beginning of the description line
+2) put the description line above the macro line
+
+Not all macros need to be described. Here are some examples of proper format:
+
+EXAMPLE 1 (both macros described):
+
+'casts spell at monster in room
+{send cast vine }{}{send %1;}{}
+'looks around
+{send look;}{}
+
+EXAMPLE 2 (only third macro described):
+
+{send wealth;}{}
+{send exp;}{}
+'look around
+{send look;}{}
+
+If all this is confusing to you, then create your macros and descriptions
+in MMTERM. Then Exit MMTERM or Shell to DOS and examine the MMTMACRO.FIL
+file to see the format it is created in.
+
+---------->>>>>>>>>>>  F2 - CONFIG MENU <<<<<<<<<<<<------------
+
+Here you can configure MMTERM to work with MajorMUD.
+Some things you'll need to configure are:
+
+* Modem Settings for that BBS
+Recommended settings...  2400:  2400 baud and NONE for Handshaking
+                         14.4:  19200 baud and CTS/RTS Handshaking
+
+* Sound on/off
+
+* Item Alert on/off
+When entering a room or area that has an item on ground, this will
+display an alert in case you're moving fast or AFK.
+
+* Configure Auto Heal/Cast/Attack
+Here you type in the command you want to use for one of the above.
+MMTERM will add your name, or the monsters name to the command for
+which it is appropriate.
+
+* Configure Auto Grab
+This feature picks up all items in every area/room you go into or are in.
+Registered users can toggle to between ALL and SELECT. SELECT allows
+the player to be selective as to what he/she grabs. Thus useless and
+worthless stuff can be bypassed.
+
+------------------>>>>>>>   F3 - SELECT MAP   <<<<<<<<<-------------------
+
+This window displays your available maps and allows you to choose one for
+viewing. You can also add your own maps to MMTERM by giving them an
+extension of .MAP
+
+* Registered users get a set of maps for MM. New maps will be added as
+  future editions of MajorMUD are released with new areas.
+
+You can also redisplay the last map you viewed by hitting <ENTER> when
+asked for a map name. This way you don't have to enter the same map
+name over and over.
+
+You may find it easier to just print your maps out instead of displaying
+them via the F3 button.
+
+------------------>>>>>>>   F5 - AUTO GRAB   <<<<<<<<<-------------------
+
+This feature, by default, will pick up all items in an area. Double press
+the F3 key or double click on it.
+
+Can also be left ON to pick up items as you travel around. Just hit the
+F3 key once. The button on the screen will be depressed to indicate this
+feature is on. This is real handy at those times you die and need to
+pick up all your dropped items.
+
+Registered users can be SELECTIVE. This means they can tell MMTERM what
+items they are interested in. MMTERM saves and remembers those items.
+Whenever Auto Grab is on and you see items in a room/area, it'll grab
+only those items of interest to you and leave the worthless stuff.
+
+------------------>>>>>>>>  F6 - AUTO ATTACK  <<<<<<<<<<<-----------------
+
+Use this feature to turn MMTERM's Auto Attack mode on or off. While ON,
+MMTERM will locate any monster or player currently in the room or that
+enters a room. It will then search your database for a matching name.
+If the monster/players name appears on your "Hit List", MMTERM
+automatically launches MM's AutoCombat mode.
+
+In this unregistered version, your "Hit List" is built-in with a limited
+number of monsters that can be attacked by this feature. Registered users
+will get an expanded database (Hit List) of monsters. Registered users
+can also add new monsters or players names to the database. Only those
+names in the database will be attacked using this feature.
+
+You can use it 2 ways:
+
+1) If monster already in room, then will turn on AutoCombat mode and
+   attempt to kill it.
+2) If no monster in the room, then the next time you enter a room with a
+   monster you will automatically begin to attack it.
+
+SPECIAL NOTES:
+
+While I talk about monsters, you can also use this feature to automatically
+attack a hated player in the game. Simply add the players name to your
+Hit List (only available to registered users).
+
+Requires FULL Statline for this feature to work. Type STATLINE FULL at the
+MM prompt to make sure you are in the correct mode.
+
+---------------->>>>>>>>  F7 - AUTO SNEAK  <<<<<<<<<<-------------
+
+If your character can SNEAK, then use this feature to make your
+character sneak.
+
+It is best to sneak before you move into a room with a monster as you
+will be able to do greater damage on your first attack. To get this added
+advantage, turn on Auto Attack, then turn on Auto Sneak before moving into
+a room with a monster.
+
+------------->>>>>>>>   F8 - AUTO SEARCH   <<<<<<<<<<<-------------
+
+This feature will search a room. Double press the F8 key or double
+click on it with the left mouse button.
+
+Can also be left ON to search rooms as you enter them when exploring.
+Just hit the F8 key once. The button on the screen will be depressed
+to indicate this feature is on.
+
+---------------->>>>>>>>  F9 - AUTO CAST  <<<<<<<<<<<------------------
+
+Works the same as F4's Auto Attack (see above) except casts a spell at
+the intended victim instead. Can also be used for INVOKING a spell if
+your character has those abilities.
+
+Use MMTERM's F2 (Config Menu) to tell MMTERM what spell you wish to use
+while Auto Casting.
+
+SPECIAL NOTE:
+
+Requires FULL Statline for this feature to work. Type STATLINE FULL at the
+MM prompt to make sure you are in the correct mode.
+
+---------------->>>>>>>>  F10 - AUTO HIDE <<<<<<<<<<<------------------
+
+This feature will hide you in a room. Double press the F10 key or double
+click on it with the left mouse button. Or can be left ON with a single
+press.
+
+This feature will attempt to hide, then it will look at yourself to
+see if you are really hidden. If you are it will say so.. if not,
+you may want to run it again.
+
+BTW, in order for it to look at you, you need to have told MMTERM your
+alias in the game. If you didn't, or have changed your name somehow, 
+you'll need to create a new .CFG file by stating a gamename not already
+in use. If the gamename is in use, then delete the gamename.CFG file
+and MMTERM will create a new one.
+
+NOTE: "gamename" refers to a name that you give MMTERM when first
+starting it. By specifying a gamename, you can create multiple
+configuration files (each with a different name). Why multiples?
+Well, if you play in more then one game of MM, then you'll need
+a .CFG file for each game since each contains info specific to your
+character in that game.
+
+----------------->>>>>>>>  <CTRL> KEYS  <<<<<<<<<<<--------------------
+
+In addition to "F" keys, MMTERM has 13 keys assigned for running other
+features.
+
+<CTRL> L, S, I, E, AND W  displays your stats and other items of
+interest. By using these keys, you can save yourself some typing.
+
+<CTRL> D  will shell you to DOS if needed
+
+<CTRL> B  will display the scrollback buffer in case something you need
+to see has already scrolled off the screen.
+
+<CTRL> C  With this you can easily save a playing session to disk in a
+          text file. Simply enter the name for the file and MMTERM
+          automatically adds an extension of .CAP.
+
+          If the file doesn't exist, it will be created. If a file with
+          the same name exists, you will have the option of overwriting
+          it (erases old file) or not (in which case the new info is
+          added to the end of the old file).
+
+<CTRL> R, and V will switch room displays between Verbose and Brief.
+          Verbose is excellent for those times when you are exploring
+          new areas as many times you can get tips on what to do in a room
+          by reading the room description. Brief is for those areas you
+          don't need to read about.
+
+<CTRL> P  This will bring up a menu that will tell you just about
+          everything you could want to know about MM. Must be online 
+          to run this feature.
+
+<CTRL> O  When you find a door or gate that is closed, use this to open it.
+          However, sometimes your character may not be strong enough to
+          open a door. In those cases, this feature will attempt to open
+          it 7 times. After failing 7 times, this feature will abort.
+
+          * Requires registration to function.
+
+<CTRL> A  Brings up the BBS phone numbers in your dialing list. Useful
+          if you want to dial/redial a BBS.
+
+***************************************************************************
+If the program doesn't work
+
+If you have trouble getting this program to run properly, check this
+document. Chances are you will find information to help you there.
+If you can't find the solution to your problem in the document
+feel free to contact me at the places listed below.
+
+   VOICE: (310) 924-4184
+    MAIL: 11955 209th St, Lakewood, CA 90715
+INTERNET: wboyett@bbs.annex.com
+MAJORNET: Will Boyett@ANX
+  TELNET: 204.74.67.1
+
+ SUPPORT BBS's: 1-213-227-7127  or  1-213-221-0127
+                Log on with this name: *Willy Boy Software
+                for instant access. 6 lines, supports all modems.
+
+                1-818-779-5600
+                Log on with the name: SUPPORT
+                100 lines, supports all modems
+
+For info on the latest version of this program and/or other term programs
+by Will Boyett, use Internet and FINGER TERMS@BBS.ANNEX.COM
+
+***************************************************************************
+Special Thanks
+
+For all their help in the development of MMTERM, I'd like to take this
+moment to give special thanks to David Spellman, Sysop of PhotoPro! who
+graciously has provided a distribution and support outlet for my programs.
+
+Special thanks to all the folks involved (too numerous to mention) with
+Beta Testing and product development.
+
+Thanks to Annex BBS and all it's players for allowing me access to MM
+for 3-5 hours everyday while I coded MMTERM. Thanks to Greg Gooden, the
+BBS's gracious Sysop.
+
+***************************************************************************
+That's all there is to it. Happy hunting, and I hope it helps add to your
+personal arsenal of tools for MajorMUD. If you should have any suggestions
+or ideas about MMTERM, or if you find a bug drop me a line.
+
+MMTERM has a long way to go before it becomes the Ultimate Term. I can only
+do it with your support. So please, join the MMTERM family and help make
+this term the best it can be.
+
+Will Boyett
+

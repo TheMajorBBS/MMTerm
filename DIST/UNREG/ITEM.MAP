@@ -1,0 +1,280 @@
+===============            CLOTHING/ARMOUR         =================
+
+Cloakroom (INN)
+Item                          Quantity    Price
+------------------------------------------------------
+travellers cloak              38           2 Gold
+greatcloak                    30           3 Gold
+hide cloak                    12           5 Gold
+
+Sentara's Clothing, Front Room    (marked ARMR on Silvermere map)
+Item                          Quantity    Price
+------------------------------------------------------
+white robes                   72           5 Silver
+grey robes                    59           5 Silver
+black robes                   68           5 Silver
+red robes                     85           5 Silver
+orange robes                  46           5 Silver
+yellow robes                  55           5 Silver
+green robes                   62           5 Silver
+blue robes                    70           5 Silver
+violet robes                  58           5 Silver
+
+Sentara's Clothing, Back Room   (marked ARMR on Silvermere map)
+Item                          Quantity    Price
+------------------------------------------------------
+soft leather jacket           55           3 Gold
+studded leather armour        45           6 Gold
+rigid leather armour          40           8 Gold
+cloth pants                   72           3 Silver
+leather pants                 60           1 Gold
+rigid leather pants           42           2 Gold
+leather belt                  112          1 Silver
+cotton gloves                 74           2 Silver
+leather gloves                64           5 Silver
+hard leather gauntlets        50           1 Gold
+
+Sentara's Clothing, Basement  (marked ARMR on Silvermere map)
+Item                          Quantity    Price
+------------------------------------------------------
+hooded cowl                   90           2 Silver
+skullcap                      24           3 Gold
+soft leather cap              60           8 Silver
+hard leather helm             48           2 Gold
+sandals                       124          1 Silver
+cloth shoes                   80           3 Silver
+soft leather boots            72           8 Silver
+hardened leather boots        56           2 Gold
+
+Skali's Fine Armour, Front Room  (marked ARMR on Silvermere map)
+Item                          Quantity    Price
+------------------------------------------------------
+chain coif                    30           5 Gold
+pot-helm                      25           8 Gold
+horned helmet                 6           25 Gold
+visored greathelm             2           65 Gold
+chain gauntlets               42           3 Gold
+scale gauntlets               30           4 Gold
+plate gauntlets               4           30 Gold
+steel-toed boots              32           5 Gold
+plate boots                   3           50 Gold
+
+Skali's Fine Armour, Showroom  (marked ARMR on Silvermere map)
+Item                          Quantity    Price
+------------------------------------------------------
+chainmail tunic               25          20 Gold
+chainmail leggings            24           6 Gold
+scalemail armour              22          25 Gold
+scalemail leggings            22           8 Gold
+brigandine armour             18          54 Gold
+brigandine leggings           16          15 Gold
+half-plate armour             5           90 Gold
+light plate armour            3          150 Gold
+light plate leggings          3           50 Gold
+full plate armour             2          250 Gold
+full plate leggings           1           75 Gold
+
+Skali's Fine Armour, Back Room   (marked ARMR on Silvermere map)
+Item                          Quantity    Price
+------------------------------------------------------
+buckler shield                52           1 Gold
+target shield                 45           3 Gold
+round shield                  38           5 Gold
+spiked shield                 22           8 Gold
+curved heater                 18          12 Gold
+kite shield                   10          15 Gold
+tower shield                  5           25 Gold
+
+=================       WEAPONS       ===================
+
+Thuluk's Marvelous Axes
+Item                          Quantity    Price
+------------------------------------------------------
+battle axe                    28           4 Gold
+hatchet                       30           2 Gold
+greataxe                      15           5 Gold
+short-spear                   20           2 Gold
+long-spear                    12          25 Silver
+halberd                       6            8 Gold
+pike                          9            5 Gold
+glaive                        10          45 Silver
+
+Helfgrim's Blades
+Item                          Quantity    Price
+------------------------------------------------------
+longsword                     32          12 Gold 
+broadsword                    25          13 Gold 
+dagger                        28           1 Gold 
+knife                         15          15 Silver
+scimitar                      20          12 Gold 
+falchion                      12          14 Gold 
+bastard sword                 14          16 Gold 
+flamberge                     10          19 Gold 
+greatsword                    8           20 Gold 
+
+Colin's Maces
+Item                          Quantity    Price
+------------------------------------------------------
+mace                          30           4 Gold
+heavy-mace                    25           5 Gold
+morning-star                  21           6 Gold
+warhammer                     16          65 Silver
+flail                         13           8 Gold
+battle-hammer                 10           9 Gold
+maul                          7           10 Gold
+quarterstaff                  89           0 Copper
+iron-capped staff             52           4 Silver
+
+====================      MISC ITEMS/FOOD        ================
+
+Sarkhee's Jewellry
+Item                          Quantity    Price
+------------------------------------------------------
+iron ring                     72           5 Silver
+copper ring                   68           1 Gold
+silver ring                   36           4 Gold
+amethyst ring                 20          10 Gold
+golden amulet                 16          50 Gold
+silver holy amulet            22          15 Gold
+golden armbands               8          120 Gold
+
+Curio Shop
+Item                          Quantity    Price
+------------------------------------------------------
+incense                       125          1 Silver
+bone charm                    2           20 Gold
+brass lamp                    78           2 Gold
+glass mirror                  35           5 Gold
+silk robe                     5           10 Gold
+
+General Store
+Item                          Quantity    Price
+------------------------------------------------------
+torch                         250          0 Copper
+lantern                       40           2 Gold
+rope and grapple              56           1 Silver
+iron ration                   430          3 Silver
+waterskin                     350          2 Silver
+
+Tavern  (marked INN on Silvermere map)
+Item                              Price
+---------------------------------------------
+waterskin                         2 Silver
+tankard of mead                   1 Silver
+jug of dark ale                   2 Silver
+bottle of wine                    1 Gold
+roast mutton                      3 Silver
+beef stew                         5 Silver
+
+The Homely Hearth, Common Room  (marked INN on Silvermere map)
+Item Price
+---------------------------------------------
+waterskin                         2 Silver
+tankard of mead                   1 Silver
+jug of dark ale                   2 Silver
+bottle of wine                    1 Gold
+roast mutton                      3 Silver
+beef stew                         5 Silver
+
+=========               SPELLS/POTIONS             ==================
+
+Magic Shoppe  (in Silvermere)
+Item                          Quantity    Price
+------------------------------------------------------
+scroll of magic missile       40           0 Gold
+scroll of detect magic        35           0 Gold
+scroll of ethereal shield     32           4 Gold
+scroll of illuminate          30           4 Gold
+scroll of smite               30           8 Gold
+scroll of resist cold         25          15 Gold
+scroll of frost jet           24          20 Gold
+scroll of resist fire         20          30 Gold
+scroll of magic armour        18          35 Gold
+scroll of flash               14          45 Gold
+scroll of shockshield         10          60 Gold
+scroll of lightning bolt      5           75 Gold
+minor healing potion          41           4 Gold
+cure poison potion            30          15 Gold
+runed chainmail tunic         2          200 Gold
+
+Temple Spell Store  (in Silvermere)
+Item                          Quantity    Price
+------------------------------------------------------
+scroll of cause harm          43           0 Gold
+scroll of minor healing       50           0 Gold
+scroll of bless               40           4 Gold
+scroll of turn undead         36           8 Gold
+scroll of prot. from evil     40          15 Gold
+scroll of spiritual hammer    32          20 Gold
+scroll of chant               27          20 Gold
+scroll of cure poison         25          30 Gold
+scroll of cure blindness      21          35 Gold
+scroll of major healing       15          50 Gold
+scroll of holy aura           9           60 Gold
+scroll of agony               4           75 Gold
+
+Spell Shop  (in Slums)
+Item                          Quantity    Price
+------------------------------------------------------
+scroll of cause harm          35           0 Gold
+scroll of curse               30           4 Gold
+scroll of turn undead         27           8 Gold
+scroll of prot. from good     20          15 Gold
+scroll of spiritual hammer    16          20 Gold
+scroll of blight              10          30 Gold
+scroll of unholy aura         6           60 Gold
+scroll of agony               4           75 Gold
+
+Bard's Room  (Upper level of Inn in Silvermere)
+Item                          Quantity    Price
+------------------------------------------------------
+songsheet of item lore        65           0 Gold
+songsheet of valour           60           4 Gold
+songsheet of misfortune       54           8 Gold
+songsheet of discord          50           8 Gold
+songsheet of charm            50          15 Gold
+songsheet of wisdom           40          15 Gold
+songsheet of foolishness      37          20 Gold
+songsheet of brilliance       35          20 Gold
+songsheet of stupidity        30          25 Gold
+songsheet of might            28          25 Gold
+songsheet of weakness         22          35 Gold
+songsheet of agility          20          35 Gold
+songsheet of clumsiness       16          45 Gold
+songsheet of traveling        10          60 Gold
+songsheet of blasting         5           75 Gold
+
+Hollow Tree (Lower Levels Guild)
+Item                          Quantity    Price
+------------------------------------------------------
+scroll of vine strike         45           0 Gold  
+scroll of starlight           41           0 Gold  
+scroll of alertness           38           4 Gold  
+scroll of resist cold         34           8 Gold  
+scroll of regenerate wounds   30           8 Gold  
+scroll of charm animal        32          15 Gold  
+scroll of resist fire         28          20 Gold
+scroll of chaos               24          20 Gold
+scroll of antidote            20          30 Gold
+scroll of stoneskin           16          35 Gold
+scroll of resist lightning    12          50 Gold
+scroll of poison bolt         7           60 Gold
+scroll of stone strike        5           75 Gold
+
+Darkwood Tree, Small House  (Forest)
+Item                          Quantity    Price
+------------------------------------------------------
+scroll of hinder              5           90 Gold
+scroll of quickness           5          100 Gold
+scroll of vampiric touch      4          100 Gold
+scroll of confusion           2          150 Gold
+scroll of sunbolt             1          150 Gold
+scroll of freedom             6           90 Gold
+scroll of shatter             2          120 Gold
+scroll of entangle            4          140 Gold
+scroll of acid jet            2          150 Gold
+scroll of blind               3          100 Gold
+scroll of hold person         2          140 Gold
+scroll of holy force          2          150 Gold
+
+

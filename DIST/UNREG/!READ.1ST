@@ -1,0 +1,77 @@
+ATTENTION!
+
+MajorMUD handles screen displays of the game in several ways. Most
+all the basic features of MMTERM can be used with any of the MajorMUD
+modes.
+
+However if you want to use sounds or any of the "Automatic" features
+of MMTERM, then you'll need some screen displays to key off of.
+MMTERM has been coded to work with MajorMUD's Full Statusline.
+
+To make sure you have the correct settings for MajorMUD, while in the
+game, go to MajorMUD's command prompt and type:  STATLINE FULL
+
+-----------------------------------------------------
+UNREGISTERD USERS PLEASE READ
+
+This program has 2 features for attacking monsters. Auto Attack
+and Auto Cast. The unregistered version only works on the following
+monsters:
+
+   Carrion     Filthbug     Acid Slime     Rat       Kobold
+   Lashworm    Thug         Orc            Cultist   Zombie
+
+When encountering any other monsters, you will have to type in
+the attack commands yourself. So be warned when encountering
+other monsters. Your Auto features won't work.
+
+You may want to consider registering so you'll be lightning
+quick when attacking all monsters.
+
+-----------------------------------------------------
+If you are upgrading from a previous version
+
+In case you have customized your spell, monster, map and macro files,
+you may not want to overwrite your files with the default files in this
+archive. Best thing to do is backup your current data files before
+installing.
+
+-----------------------------------------------------
+What's new in 2.6
+* Upgraded to work with the new MajorMUD version 1.0Z that was
+  released on July 1 1995.
+
+What's new in 2.5
+* Upgraded to work with the new MajorMUD version 1.0y-WG that was
+  released on June 2.
+
+What's new in 2.4
+* Auto Heal will now work for Warriors and other characters that have
+  no Mana.
+* No longer prompts you to dial a BBS when already online.
+
+What's new in 2.3
+* Fixed a text display problem that occured in SETUP.EXE on some
+  EGA/VGA cards.
+
+What's new in 2.2
+* Upgraded to work with the new MajorMUD version 1.0y
+
+What's new in 2.1
+* Just a bug fix for unregistered users. The Auto Attack wasn't
+  working. Is now.
+
+What's new in 2.0
+* Optimized most everything
+* Included Auto Heal
+* Now configurable so folks can use INVOKE instead of CAST
+* Now configurable so folks can use Jumpkick, Punch, or 
+  whatever for attacking.
+* Can now use the mouse to run the ALT-key macros  
+
+What's new in 1.1
+
+* Added DIAL BBS feature so you can bring up dial menu at anytime.
+* Improved Auto Sneak and Auto Hide features.
+* Minor bug fixes.
+* Expanded Spell database
